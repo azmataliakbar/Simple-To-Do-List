@@ -35,7 +35,7 @@ if (menu.selectMenu === 'Tasks for today') {
         const { task } = await inquirer.prompt({
             type: 'input',
             name: 'task',
-            message: chalk.blueBright.italic.bold('Enter task (leave blank to finish):')
+            message: chalk.blueBright.italic.bold('Enter task or (leave blank to finish and press enter):')
         });
         if (task.trim() !== '') {
             tasksForToday.push(task.trim());
@@ -56,7 +56,7 @@ else if (menu.selectMenu === 'Adding tasks to a list') {
         const { task } = await inquirer.prompt({
             type: 'input',
             name: 'task',
-            message: chalk.blueBright.italic.bold('Enter task (leave blank to finish):')
+            message: chalk.blueBright.italic.bold('Enter task or (leave blank to finish and press enter):')
         });
         if (task.trim() !== '') {
             tasksForToday.push(task.trim());
@@ -77,7 +77,7 @@ else if (menu.selectMenu === 'Editing task details') {
         const { task } = await inquirer.prompt({
             type: 'input',
             name: 'task',
-            message: chalk.blueBright.italic.bold('Enter task (leave blank to finish):')
+            message: chalk.blueBright.italic.bold('Enter task or (leave blank to finish and press enter):')
         });
         if (task.trim() !== '') {
             tasksForToday.push(task.trim());
@@ -98,7 +98,7 @@ else if (menu.selectMenu === 'Deleting tasks') {
         const { task } = await inquirer.prompt({
             type: 'input',
             name: 'task',
-            message: chalk.blueBright.italic.bold('Enter task (leave blank to finish):')
+            message: chalk.blueBright.italic.bold('Enter task or (leave blank to finish and press to enter):')
         });
         if (task.trim() !== '') {
             tasksForToday.push(task.trim());
@@ -119,7 +119,7 @@ else if (menu.selectMenu === 'Marking tasks as complete') {
         const { task } = await inquirer.prompt({
             type: 'input',
             name: 'task',
-            message: chalk.blueBright.italic.bold('Enter task (leave blank to finish):')
+            message: chalk.blueBright.italic.bold('Enter task or (leave blank to finish and press enter):')
         });
         if (task.trim() !== '') {
             tasksForToday.push(task.trim());

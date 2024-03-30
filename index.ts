@@ -43,7 +43,7 @@ if (menu.selectMenu === 'Tasks for today'){
     const { task } = await inquirer.prompt({
       type: 'input',
       name: 'task',
-      message: chalk.blueBright.italic.bold('Enter task (leave blank to finish):')
+      message: chalk.blueBright.italic.bold('Enter task or (leave blank to finish and press enter):')
     });
 
     if (task.trim() !== '') {
@@ -67,7 +67,7 @@ if (menu.selectMenu === 'Tasks for today'){
     const { task } = await inquirer.prompt({
       type: 'input',
       name: 'task',
-      message: chalk.blueBright.italic.bold('Enter task (leave blank to finish):')
+      message: chalk.blueBright.italic.bold('Enter task or (leave blank to finish and press enter):')
     });
 
     if (task.trim() !== '') {
@@ -93,7 +93,7 @@ if (menu.selectMenu === 'Tasks for today'){
     const { task } = await inquirer.prompt({
       type: 'input',
       name: 'task',
-      message: chalk.blueBright.italic.bold('Enter task (leave blank to finish):')
+      message: chalk.blueBright.italic.bold('Enter task or (leave blank to finish and press enter):')
     });
 
     if (task.trim() !== '') {
@@ -118,7 +118,7 @@ if (menu.selectMenu === 'Tasks for today'){
     const { task } = await inquirer.prompt({
       type: 'input',
       name: 'task',
-      message: chalk.blueBright.italic.bold('Enter task (leave blank to finish):')
+      message: chalk.blueBright.italic.bold('Enter task or (leave blank to finish and press to enter):')
     });
 
     if (task.trim() !== '') {
@@ -143,7 +143,7 @@ if (menu.selectMenu === 'Tasks for today'){
     const { task } = await inquirer.prompt({
       type: 'input',
       name: 'task',
-      message: chalk.blueBright.italic.bold('Enter task (leave blank to finish):')
+      message: chalk.blueBright.italic.bold('Enter task or (leave blank to finish and press enter):')
     });
 
     if (task.trim() !== '') {
