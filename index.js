@@ -21,7 +21,8 @@ const currentDateTime = new Date();
 const currentDate = currentDateTime.toLocaleDateString();
 const currentTime = currentDateTime.toLocaleTimeString();
 console.log(rainbowText(`\nDate: ${currentDate} & Time: ${currentTime}`));
-console.log(chalk.yellowBright.italic.bold.underline("\nPlease check the below list:-  \n"));
+console.log();
+console.log(chalk.yellowBright.italic.bold.underline("\n🟠🟢🔵  Welcome to the TODO List 🔵🟢🟠\n"));
 let menu = await inquirer.prompt({
     name: "selectMenu",
     type: "list",
@@ -133,4 +134,4 @@ else if (menu.selectMenu === 'Marking tasks as complete') {
         console.log(`${index + 1}. ${task}`);
     });
 }
-console.log(chalk.redBright.italic.bold.underline("\nPlease save all To Do List and print if you need."));
+console.log(chalk.redBright.italic.bold.underline("\nPlease scroll up / down To Do List to see all details."));
