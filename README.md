@@ -1,7 +1,7 @@
-# Simple-To-Do-List-1
-<br>
+Simple-To-Do-List-1
+
 This is a Simple To-Do-List.
-<br>
+
 Author : Azmat Ali
-<br>
+
 Project : 4.1
